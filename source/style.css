@@ -1,5 +1,106 @@
-html, body {
+html,body {
+ 
     width: 100%;
     height: 100%;
     background-color: green;
-}
+    }
+     
+    .xsmall{
+        display:none;
+    }
+     
+    .small{
+        display:none;
+    }
+     
+    .medium{
+        display:none;
+    }
+     
+    .large{
+        display:none;
+    }
+     
+    .xlarge{
+        display:none;
+    }
+     
+    .xxlarge{
+        display:none;
+    }
+     
+     
+     
+     
+     
+    /*XS*/
+    @media (max-width: 576px) {
+     
+        html, body {
+            background-color: red;
+        }
+     
+        .small{
+            display: block;
+        }
+    }
+     
+    /*small*/
+    @media (min-width: 576px) and (max-width:767px){
+     
+        html, body {
+            background-color: violet;
+        }
+     
+        .xsmall{
+            display: block;
+        }
+    }
+     
+    /*medium*/
+    @media (min-width: 768px) and (max-width:991px){
+     
+        html, body {
+            background-color: blue;
+        }
+     
+        .medium{
+            display: block;
+        }
+    }
+     
+     
+    /*large*/
+    @media (min-width:992px) and (max-width:1199px){
+     
+        html, body {
+            background-color: yellow;
+        }
+     
+        .large{
+            display: block;
+        }
+    }
+     
+    /*xl*/
+    @media (min-width:1200px) and (max-width:1399px){
+     
+        html, body {
+            background-color: violet;
+        }
+     
+        .xlarge{
+            display: block;
+        }
+    }
+    /*XXL*/
+    @media (min-width:1400px){
+     
+        html, body {
+            background-color: green ;
+        }
+     
+        .xxlarge{
+            display: block;
+        }
+    }
