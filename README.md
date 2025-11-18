@@ -64,3 +64,6 @@ Wenn die Seite ausgedruckt wird, soll der `large`-Inhalte ausgegeben werden und 
 - Hintergrund Weiß
 - Schriftfarbe Schwarz
 - Bilder weg
+
+### 4. 3-Spalten-Layout
+
